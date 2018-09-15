@@ -23,11 +23,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/material/css/material.min.css",
-              "src/material/css/style.css"
             ],
             "scripts": [
-              "src/material/js/material.min.js"
+
             ]
           },
           "configurations": {
@@ -75,9 +73,11 @@
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
             "styles": [
-              "src/styles.css"
+
             ],
-            "scripts": [],
+            "scripts": [
+
+            ],
             "assets": [
               "src/favicon.ico",
               "src/assets"
