@@ -23,9 +23,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/material/css/material.min.css",
+              "src/material/css/style.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/material/js/material.min.js"
+            ]
           },
           "configurations": {
             "production": {
