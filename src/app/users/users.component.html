@@ -1,0 +1,10 @@
+<mat-card class="example-card" *ngFor="let user of users">
+  <mat-card-header>
+    <mat-card-title><h3>User ID: {{ user.id }}</h3></mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <span><strong>Name:</strong> {{ user.name }}</span><br>
+    <span><strong>Surname:</strong> {{ user.surname }}</span>
+  </mat-card-content>
+</mat-card>
+
