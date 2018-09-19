@@ -22,3 +22,7 @@ span.project-title a {
     color: #fff;
     text-decoration: none;
 }
+
+button.mat-button {
+    color: #fff;
+}

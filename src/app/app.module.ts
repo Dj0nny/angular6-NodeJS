@@ -9,12 +9,14 @@ import { MaterialModule } from './material';
 import { UsersComponent } from './users/users.component';
 
 import{ HttpClientModule } from '@angular/common/http';
+import { UserformComponent } from './userform/userform.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     UsersComponent,
+    UserformComponent,
   ],
   imports: [
     BrowserModule,
